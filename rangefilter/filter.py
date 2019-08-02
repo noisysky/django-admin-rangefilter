@@ -120,6 +120,7 @@ class DateRangeFilter(admin.filters.FieldListFilter):
     @staticmethod
     def _get_media():
         js = [
+            'jquery.js',
             'core.js',
             'calendar.js',
             'admin/DateTimeShortcuts.js',
